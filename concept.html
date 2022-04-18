@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Concept</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="FontYellowtail">
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+        <a href="home.html">HOME</a> 
+        <a class="active" href="concept.html">CONCEPT</a> 
+        <a href="history.html">HISTORY</a>  
+        <a href="CV.html">CV</a>
+    </div> 
+    
+    <!-- header with bgphoto -->
+    <!-- Header with bgvideo -->
+    <div class="row">
+        <video autoplay muted loop poster="bghome.jpg" id="bghome">
+        <source src="photos/bghome.mp4" type="video/mp4"></video>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+        <!-- Leftside Bar -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <div id="mySidenav" class="sidenav">
+                    <a onclick="anchorText('COD')" href="javascript:void(0);">Code On Demand</a>
+                    <a onclick="anchorText('example')" href="javascript:void(0);">Examples</a>
+                    <a onclick="anchorText('pros')" href="javascript:void(0);">Advantages</a> 
+                    <a onclick="anchorText('cons')" href="javascript:void(0);">Disadvantages</a>
+                    <a onclick="anchorText('optional')" href="javascript:void(0);">Optional Constraint</a>
+                    <a onclick="anchorText('security_concern')" href="javascript:void(0);">Security Concerns</a> 
+                    <a onclick="anchorText('security_guideline')" href="javascript:void(0);">Security Guideline</a>
+
+                </div>
+        </div> 
+        <!-- Concepts of Code on Demand -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+            <div id ="COD">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Code On Demand (COD)</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>COD is the sixth, the final constraint also the only optional constraint in the REST style. </p>
+                        <p>COD means a server can extend the functionality of a client on runtime by downloading and executing code in the form of applets or scripts (like Java Applets (deppreciated), JavaScript) and recent WebAssemply. 
+                            This executing is very common in webpages, when browser accesses a webpage, it almost always downloads a lot of JavaScript specific to the webpage and extends the functionality of browser on runtime through COD.
+                        </p>
+                        <p><img src="photos/client_server.png"></p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="example">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Examples of COD</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>For instance, when filtering friend’s name on Facebook, a JavaScript code that can add different kinds of filters to the friend list. This code gets from COD. The functionality is not pre-installed in the browser, but something can get when loading Facebook’s webpage.</p>       
+                        <p>A client can download a JavaScript, Java Applet (depreciated) or Flash Application to encrypt communication between server and client so servers are not aware of encryption and key in this process.</p>
+                        <p><a href="https://en.wikipedia.org/wiki/Java_applet" target="_blank">Java Applets </a>were small applications that compiles to Java bytecode and delivered to users in the form of Java bytecode. Not so popular since 2013. </p>
+                        <p><a href="https://en.wikipedia.org/wiki/Adobe_Flash_Player" target="_blank">Flash </a>Adobe Flash Player is a runtime that executes and displays content from a provided SWF file, although it has no in-built features to modify the SWF file at runtime. It can execute software written in the ActionScript programming language which enables the runtime manipulation of text, data, vector graphics, raster graphics, sound, and video. </p>
+                        <p><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript </a>is the programming language for web, JavaScript can update and change both HTML and CSS, JavaScript can calculate, manipulate and validate data. JavaScript is the dominant client-side scripting language of the Web, with 97% of websites using it for this purpose. Scripts are embedded in or included from HTML documents and interact with the DOM. All major web browsers have a built-in JavaScript engine that executes the code on the user's device, including Facebook and YouTube, Google maps and eBay.  </p>
+                        <p>JavaScript is the most popular programming language because it is created out of necessity, easy to learn, free and open community, allowing developers to quickly create apps. JavaScript with AJAX technique and jQuery library is greatly simplifies JavaScript programming. AJAX enable reading data from a server after the webpage has loaded, update a web page without reloading the page, send data to a web server in the background. </p>
+                    </div>  
+                </div>
+            </div>
+
+
+            <div id="pros">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Advantages of COD</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>COD simplifies clients and allows extension of client functionality by reducing the number of features required to be pre-implemented. COD reduces the cost caused by carrying code modules not needed in the near future. Allowing features to be downloaded after deployment improves system extensibility. </p>
+                        <p>COD is the only optional constraint of REST, so architectures that do not use this still be considered RESTful. </p>
+                        <p>It allows clients to be flexible because server will decide how specific items need to be handled on the client side. So that the underlying server doesn’t aware of specific encryption methods used to encrypt the client-server communication. </p>
+                        <p>COD can also be applied to services and service consumers. Service design can enable the server to dynamically defer some portion of logic to the service client programs</p>
+                        <p>Web browsers can allow servers to return scripts or links that can be executed at the client side. This code execution help to expand the capabilities of the client without needing the user to install new client software.</p>
+                        <p>In COD, client components can access to resources but don’t know how to process them. It sends a request to a remote server for a code presenting that know-how, receives that code and then executes it locally  </p>
+                        <p>Code privacy is enhanced. Since code module will only be added when needed and deleted when they become useless, irrelevant hosts will be less likely to spy on the important algorithms from the decision modules. In this case, the threat that agent code will suffer from malicious tampering is reduced.</p>
+                        <p>In case that a malicious attack on agent code really happens and has been detected, CoD will be helpful in recovering process.</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="cons">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Disadvantages of COD</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>The down side of using COD is reduces the visibility of the underlying API, and not every API prefers these kind of flexibility so it is only an optional constraint within REST.</p>    
+                        <p>It also incurs additional security challenges, especially when looking into the issue of verifying agent code integrity after the code as a whole has been changed.</p>
+                        <p>The server assumptions about the nature of the client and its ability to execute whatever code is passed.</p>
+                        <p>The Payload of requests can be quite large due to passing JSON or XML files with lots of queries depending on the data you want to retrieve which can affect performance.</p>
+                        <p>REST, in its most common implementation, has no discoverability. It will be challenging to know how to use the API in case the API doesn’t have documentation.</p>
+                        <p>Althought COD has GET, POST methods. It's not suitable for command-like functions and instead functions best for simple actions, such as create, read, update, and delete ( CRUD).</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="optional">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Why COD is an optional constraint on REST?</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>COD is classified as optional constraint because it does have a purpose in the architectural design of a system that encompasses multiple organizational boundaries. It means that the architecture only gains the benefit (and suffers the disadvantages) of the optional constraints when they are known to be in effect for some realm of the overall system. </p>
+                        <p>For example, if all of the client software within an organization is known to support Java applets, then services within that organization can be constructed such that they gain the benefit of enhanced functionality via downloadable Java classes. At the same time, however, the organization’s firewall may prevent the transfer of Java applets from external sources, and thus to the rest of the Web it will appear as if those clients do not support code-on-demand. An optional constraint allows us to design an architecture that supports the desired behaviour in the general case, but with the understanding that it may be disabled within some contexts.</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="security_concern">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">REST API and Security Concerns </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <p>Among Architectural Styles for APIs such as REST, GraphQL, RPC, SOAP, gRPC, Falcor, REST is by far the most commonly used architectural style with 80% given its prominence in API design over the last decade plus, but sometimes there are trade-offs with other architectural demands (simplicity, loose-coupling, network efficiency, information abstraction, resource granularity, convenience). So it is necessary to determine which demands is priority to choose the suitable Architectural style for specific API.</p>
+                        <p>A client process requires a remote program, which is downloaded to the client’s local executing environment. It is a pull-based approach to perform alien codes. Java-applets are a popular implementation of this model. This client environment would raise concern about trust and security.</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div id="security_guideline">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 title_text underline">Security Guidelines</div>
+                </div>
+                <ul class="indentation">
+                <div class="row">
+                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <li>When generating REST API documentation, opt for machine formats and schema definitions as opposed to traditional documentation or visual diagrams.</li>
+                        <li>Discover REST APIs in non-production environments, not just production environments</li>
+                        <li>Include the dependencies of your REST APIs.</li>
+                        <li>Analyze REST API code automatically where possible. Analyze code automatically with static analysis tools like code quality checkers and static application security testing (SAST) upon code commit in version control systems such as git and/or in CI/CD build pipelines.</li>
+                        <li>Mediate REST APIs to enforce access control.</li>
+                        <li>Use encrypted transport to protect the data your REST APIs transmit.</li>
+                        <li>Avoid sending too much data to REST API clients.</li>
+                        <li>Authenticate and continuously authorize REST API consumers.</li>
+                        <li>Explore behaviour analysis and anomaly detection.</li>
+                        <li>Create API-centric incident response playbooks for REST APIs.</li>
+                    </div>  
+                </div>
+                </ul>
+            </div>
+
+
+            <div id="reference">
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-11 col-xl-10 title_text underline">References</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10" style="font-size:xx-small">
+                        <li>https://www.pdfdrive.com/restful-web-services-d4300722.html</li>    
+                        <li>https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation_2up.pdf</li>
+                        <li>https://restcookbook.com/Basics/codeondemand/</li>
+                        <li>https://www.sciencedirect.com/science/article/pii/S0164121201000930</li>
+                        <li>https://api-university.com/blog/architectural-style-for-apis/</li>
+                        <li>https://www.programmableweb.com/news/what-are-strengths-and-limitations-three-commonly-used-api-architectural-styles/analysis/2022/02/17 </li>
+                        <li>Book: Hands-on RESTful API Design Patterns and Best Practice Harihara Subramanian, Pethuru Raj</li>
+                        <li>CITS5505 unit materials, Tim French</li>
+                        <li>https://github.com/tomsmoker</li>
+                        <li>https://www.w3schools.com/</li>
+                        <li>https://stackoverflow.com/</li>
+                    </div>  
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer >
+        <div class="row theme" style="font-size: xx-small; text-align: center">
+                <p >Hudi Baldacchino | 23219385@student.uwa.edu.au | Find me on <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a><a href="https://www.linkedin.com/in/hudi-baldacchino-3222a683/" class="fa fa-linkedin" target="_blank"></a><a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

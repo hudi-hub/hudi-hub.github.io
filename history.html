@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>History</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">  
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+   
+
+<body class="FontYellowtail">
+
+    <!-- Top Navigation Bar -->
+
+    <div class="navbar">
+        <a href="home.html">HOME</a> 
+        <a href="concept.html">CONCEPT</a> 
+        <a class="active" href="history.html">HISTORY</a>  
+        <a href="CV.html">CV</a>
+    </div> 
+    <!-- Header with bgvideo -->
+    <div class="row">
+        <video autoplay muted loop poster="bghome.jpg" id="bghome">
+        <source src="photos/bghome.mp4" type="video/mp4"></video>
+    </div>
+
+    <!-- History of Code on Demand -->
+    <div class="row">
+        <!-- Leftside Bar -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                <div id="mySidenav" class="sidenav">
+                    <a onclick="anchorText('overview')" href="javascript:void(0);">Overview</a>
+                    <a onclick="anchorText('1990s')" href="javascript:void(0);">1990s</a>
+                    <a onclick="anchorText('1995')" href="javascript:void(0);">1995</a> 
+                    <a onclick="anchorText('1997')" href="javascript:void(0);">1997</a> 
+                    <a onclick="anchorText('1999')" href="javascript:void(0);">1999</a>
+                    <a onclick="anchorText('2000')" href="javascript:void(0);">2000</a> 
+                    <a onclick="anchorText('2004')" href="javascript:void(0);">2004</a>
+                    <a onclick="anchorText('2005')" href="javascript:void(0);">2005</a> 
+                    <a onclick="anchorText('2006-2010')" href="javascript:void(0);">2006 - 2010</a>
+                    <a onclick="anchorText('2013')" href="javascript:void(0);">2013</a> 
+                    <a onclick="anchorText('2016')" href="javascript:void(0);">2016</a>
+                    <a onclick="anchorText('2017')" href="javascript:void(0);">2017</a>
+                    <a onclick="anchorText('2020')" href="javascript:void(0);">2020</a> 
+                    <a onclick="anchorText('current')" href="javascript:void(0);">Current</a>
+                    <a onclick="anchorText('current')" href="javascript:void(0);">Reference</a>
+                </div>
+        </div> 
+        <!-- Content on the right -->
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9" class="indentation">
+                <div id="verview">
+                    <p class="title_text">Overview</p>
+                    <p>At the beginning of internet, websites were static. However, there are many tasks can only be done with apps and websites that are dynamic and responsive to different conditions. Global increase in hardware with open architecture formats which enabled the design of open architecture software and open APIs leveraging REpresentational State Transfer (REST). The optional constraint on REST called Code On Demand (COD) enables client functionality to be extended by downloading and executing code in the form of applets or scripts. Back to mid-1990s, there were no certain modelling of server-client communication until Roy Fielding described COD in 2000. Companies around the global quickly adopt REST. The high demand of COD and vastly implementation of REST lead to development and collaboration which enable new modules, frameworks, technology and services such as (Cloud, Git, DOM, AJAX, Flask …) . This opening enormous opportunities and challenges. Below is the history of REST (mainly focus on COD) which are categorized by timeline. </p>
+                </div>    
+                <div id="1990s">
+                    <p class="title_text">Early to mid-1990s</p>
+                    <p>During that early days, website were static, communication between server and client were limited and there was no way of making websites dynamic.</p>
+                </div>
+
+                <div id="1995">
+                    <p class="title_text">1995: Java-applets were introduced</p>
+                    <p>Some scripting languages were introduced to make website dynamic and responsive to different condition.</p>
+                    <p>In September 1995, a Netscape programmer named Brandan Eich developed a new scripting language. It was originally named Mocha, but quickly became known as LiveScript and, later, JavaScript. JavaScript is a scripting language that enables developer to create dynamically updating content, control multimedia, animate images, and almost everything requires dynamic behaviour implementation. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three essential technologies of World Wide Web content production. </p>
+                    <p>JavaScript and Java are similar in some ways but fundamentally different because JavaScript inherits dynamic typing and object-oriented, while Java’s static and class-based.</p>
+                </div>
+
+                <div id="1997">
+                    <p class="title_text">1997: ECMAScript Is Born</p>
+                    <p>ECMAScript is a JavaScript standard meant to ensure the interoperability of web pages across different web browsers. It is standardized by <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">ECMA</a>according to the document ECMA-262. </p>
+                </div>
+
+                <div id="1999">
+                    <p class="title_text">1999: API</p>
+                    <p>API allow developers to release software as a service, and is a key building block for modern web applications. </p>
+                    <p>The functionality built on top of the client-side JavaScript language called Application Programming Interfaces (APIs) provide extra superpowers to use in your JavaScript code.</p>
+                    <p>APIs are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement. API was free. At that time, most developers use a protocol called Simple Object Access Protocol (SOAP) to integrate APIs.</p>
+                </div>
+
+                <div id="2000">
+                    <p class="title_text">2000: The beginning of REST</p>
+                    <p>REST was defined in 2000 by <a href="https://en.wikipedia.org/wiki/Roy_Fielding">Roy Fielding</a>
+                        REST is an architecture for the web that describe interactions with web based resources. 
+                        HTTP is stateless, so there is no memory between transactions. REST uses the current page as a proxy for state, and operations to move from one to the other. 
+                    </p>
+                    <p>On Roy’s doctoral dissertation, he model down a core set of principles, properties, and 6 constraints that are now called REST. The 6 constraints are client-server, layered system, cache, code on demand, stateless, uniform interface. Most companies implement REST because of it characteristic including usable with any language, HTTP methods explicitly, lightweight, simple data structures, exposed URLs</p>
+                    <p><a href="https://en.wikipedia.org/wiki/Code_on_demand">Code on Demand</a> COD is the optional constrain of REST. The COD principle states that the server can provide executable code in responses to a client. This is common practice with web browsers, where JavaScript is provided to be run by the client. However this isn’t commonly included in REST APIs since there is no standard for executable code, so for example, iOS won’t execute JavaScript. </p>
+                    <p>In comparison between REST and SOAP, 
+                        REST is a better choice for simple, CRUD-oriented services, because of the way REST repurposes HTTP methods (GET, POST, PUT, and DELETE). It is also popular because it's lightweight and has a smaller learning curve. SOAP, on the other hand, has stricter implementation, higher standards for security, addressing, etc.
+                    </p>
+                </div>
+
+                <div id="2004">
+                    <p class="title_text">2004: The rise of Social Network</p>
+                    <p>Flickr launched its own REST API, just in time for the rise of social networking and blogging. Enabling option to post and share. Facebook and later Twitter hastily joined. The request for public APIs escalated, the Web was changing. Easily accessible REST APIs now enable everyone to add a feature to a website in a short time. To be distinguished, REST is the set of constraints. RESTful refers to an API adhering to those constraints. Facebook, Twitter, and Google expose their functionality in the form of Restful web services. This allows any client application to call these web services via REST.</p>
+                </div>
+
+                <div id="2005">
+                    <p class="title_text">2005: AJAX </p>
+                    <p>A paper released by Jesse James Garrett introduced Ajax which stands for Asynchronous JavaScript and XML, is a set of web development techniques that uses various web technologies on the client-side to create asynchronous web applications. Ajax vastly improved user experience by allowing web pages to feel more like native desktop apps. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page because it request data from a server without refreshing the page of blocking the application. This really pushed JavaScript into the spotlight as a professional programming language with large and popular JavaScript frameworks and libraries, such as Dojo and MooTools and jQuery. <a href=" https://en.wikipedia.org/wiki/JQuery">jQuery </a>is one of the most popular libraries in the world because it  it simplifies HTML document traversing and manipulation, browser event handling, DOM animations, Ajax interactions, and cross-browser JavaScript development.</p>
+                </div>
+
+                <div id="2006-2010">
+                    <p class="title_text">2006 - 2010: Cloud Computing - AWS, Google Cloud,  Microsoft Azure released</p>
+                    <p>Amazon Web Services (AWS) launch the cloud with services that can create RESTful API with easily-accessible REST APIs enabled sites to add a functionality to the site in no time. Since then, REST APIs have become the backbone of the Internet and creators of huge business opportunities due to their ability to extend the scope of a brand beyond the audience of a website.</p>
+                    <p>The CommonJS project set out to define and promote JavaScript development outside the browser by using modules to package useful code and functionality. Node.js is a more advance server side version of JavaScript. In REST API-based applications—JavaScript is used both in the frontend and backend of sites. Thus, a server can easily communicate with the frontend via REST APIs using Node.js. </p>
+                    <p>Node.js allows JavaScript to be run without a browser (browserless), and is commonly used to run web servers.</p>
+                    <p>Before Node.js, developers would have to use different languages for the backend and frontend of their application. For example, PHP, Java, ASP.Net would run on the server, and JavaScript would run in the client browser. Now with Node.js, developers can use JavaScript on the server as well as the client</p>
+                </div>
+
+                <div id="2013">
+                    <p class="title_text">2013: the end of Java Applets  </p>
+                    <p>Major web browsers began to phase out support for the underlying technology applets used to run.</p>
+                </div>
+
+                <div id="2016">
+                    <p class="title_text">2016: Angular </p>
+                    <p>Angular is a JavaScript framework which is made for building large, single-page web applications.</p>
+                </div>
+
+                <div id="2017">
+                    <p class="title_text">2017: WebAssembly is released</p>
+                    <p>WebAssembly is a new type of code that can be run in modern web browsers with huge implication and high performance</p>
+                </div>
+                <div id="2020">
+                    <p class="title_text">2013: Flash support ended.</p>
+                    <p>Adobe blocked Flash content from running in Flash Player beginning January 12, 2021. There was criticism on Flash, one of the well-known case was published on <a href="https://newslang.ch/wordpress/wp-content/uploads/2020/06/Thoughts-on-Flash.pdf">“Thoughts on Flash" </a> is an open letter published by Steve Jobs. The letter criticizes  Flash platform and outlines reasons why the technology would not be allowed on Apple's iOS hardware products. In retrospect many publications came to agree with Jobs. </p>
+                </div>
+
+                <div id="current">
+                    <p class="title_text">Current </p>
+                    <p>RESTful refers to an API adhering to RESTconstraints.
+                        RESTful APIs make storing and sharing data of any kind of possible, integrating functionality into software. It has led APIs to the sky’s the limit. 
+                    </p>
+                </div>
+
+                <div id="reference">
+                    <p class="title_text">Reference</p>
+                    <div style="font-size: xx-small;">
+                        <li>https://www.springboard.com/blog/data-science/history-of-javascript/</li>
+                        <li>http://restfulwebapis.org/RESTful_Web_Services.pdf</li>
+                        <li>https://blog.readme.com/the-history-of-rest-apis/</li>
+                        <li>https://organicdonut.com/2013/08/technical-understanding-javascript-node-js-and-their-libraries/</li>
+                        <li>https://mobapi.com/history-of-rest-apis/</li> 
+                        <li>https://kinsta.com/knowledgebase/what-is-node-js/</li>
+                        <li>https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation_2up.pdf</li>
+                        <li>https://www.w3schools.com/</li>
+                        <li>https://stackoverflow.com/</li>
+                        <li>https://github.com/tomsmoker</li>
+                        <li>CITS5505 Lectures, Tim French</li>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+   <!-- Footer -->
+   <footer >
+    <div class="row theme" style="font-size: xx-small; text-align: center">
+            <p >Hudi Baldacchino | 23219385@student.uwa.edu.au | Find me on <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a><a href="https://www.linkedin.com/in/hudi-baldacchino-3222a683/" class="fa fa-linkedin" target="_blank"></a><a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a></p>
+    </div>
+    </footer>
+ 
+</body>
+</html>
