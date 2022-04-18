@@ -59,7 +59,7 @@ function myDownloadHistory(){
 
 // User enter name. User press Submit. Wellcome sms is shown.
 function wellcome() {
-  let sms = "Hi " + document.getElementById("uname").value +" !  Wellcome to my website !  Have a great day !";
+  let sms = "Hi " + document.getElementById("uname").value +" !  Welcome to my website !  Have a great day !";
   document.getElementById("name").innerHTML = sms;
 }
 
